@@ -2,10 +2,10 @@ import React from 'react';
 
 const Statistics = () => {
     return (
-        <div>
-            <h1> this is statistics</h1>
+        <div className=' container'>
+            <h1> this is Statistics  </h1>
         </div>
     );
 };
 
-export default Statistics;<h1> this is statistics</h1>
+export default Statistics;
