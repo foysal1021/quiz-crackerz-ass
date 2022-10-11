@@ -1,0 +1,13 @@
+.nav-items a {
+    text-decoration: none;
+    background-color: rgb(3, 77, 77);
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.nav-items a:hover{
+    background-color: rgb(199, 145, 27);
+    color: white;
+}
