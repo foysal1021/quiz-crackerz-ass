@@ -15,7 +15,7 @@ const UIshowQuiz = ({Quizdata}) => {
     }
 
     return (
-        <div className='  w-50 container border my-3 rounded p-4'>
+        <div className='  container border my-3 rounded p-4'>
 
             <div className=' text-center d-flex justify-content-between'>
                 <div className=' col-11'><h5 className='fw-bold'> <span className=' text-info'>Quiz</span> : {question} </h5></div>
@@ -24,7 +24,7 @@ const UIshowQuiz = ({Quizdata}) => {
                
             </div>
 
-            <div className=' row '>
+            <div className=' row p-3'>
                 { 
                     options.map( option => <Answer  correctAnswer={correctAnswer}  option={option}></Answer> )
                 }

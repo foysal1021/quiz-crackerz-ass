@@ -24,11 +24,12 @@ const Answer = (props) => {
     }
 
     return (
-        <div className=' col-6'>
+        <div className=' col-6 text-center'>
+            <div className=' bg-warning m-1 p-3 rounded'>
             <label className=''>
             <input  onClick={ ()=> click(option) } type="radio" value="Male" name="gender" /> {option}
             </label>
-
+            </div>
         </div>
     );
 };
