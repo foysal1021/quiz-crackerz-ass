@@ -1,15 +1,14 @@
-# Getting Started with Create React App
+# Quiz Crackerz Assignment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # Live Link [https://meek-palmier-e0d895.netlify.app](https://meek-palmier-e0d895.netlify.app)
 # Git Hub link [https://github.com/programming-hero-web-course2/b6-quiz-crackerz-foysal1021.git](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-foysal1021.git)
 # i did use this project
-- [react router]
+- [did react router]
+- [did sweet alert]
+- [did responsive ]
 
 
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
