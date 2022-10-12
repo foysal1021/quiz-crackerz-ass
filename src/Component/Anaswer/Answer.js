@@ -4,25 +4,22 @@ import Swal from 'sweetalert2';
 
 const Answer = (props) => {
     const {option,correctAnswer}=props;
-    // ()=> setOption(option)
-    const [Answer,setAnswer] = useState([]);
-    console.log(Answer)
 
+    const [Answer,setAnswer] = useState([]);
         if(correctAnswer ===  Answer){
         Swal.fire(
             'Good job!',
             'corret Answer!',
             'success'
           )
-    }else{
+        }else{
         Swal.fire({
             icon: 'error',
             text: 'incorret',
 
           })
     }
-
-
+    
     return (
         <div className=' col-6'>
 

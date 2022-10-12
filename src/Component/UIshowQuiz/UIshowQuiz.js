@@ -1,19 +1,27 @@
 import React, { useState } from 'react';
 import Answer from '../Anaswer/Answer';
 import './UIshowQuiz.css';
-import { BeakerIcon } from '@heroicons/react/24/solid'
-
+import { EyeIcon } from '@heroicons/react/24/solid'
+import Swal from 'sweetalert2';
 
 
 const UIshowQuiz = ({Quizdata}) => {
     const {question,options,correctAnswer}=Quizdata;
+    const clickEye = ()=> {
+        Swal.fire(
+            'Correct Answer is ',
+            `${correctAnswer}`,
+          )
+    }
 
     return (
         <div className='  w-50 container border my-3 rounded p-4'>
 
             <div className=' text-center d-flex justify-content-between'>
-                <h5 className='fw-bold'> <span className=' text-info'>Quiz</span> : {question} </h5>
-                <h5> eya </h5>
+                <div className=' col-11'><h5 className='fw-bold'> <span className=' text-info'>Quiz</span> : {question} </h5></div>
+                <div onClick={ clickEye } className=' col-1'><EyeIcon className="eyeIcon"/></div>
+                    
+               
             </div>
 
             <div className=' row '>
