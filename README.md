@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Live Link [https://meek-palmier-e0d895.netlify.app](https://meek-palmier-e0d895.netlify.app)
 
 ## Available Scripts
 
