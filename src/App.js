@@ -1,5 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Alert404 from './Component/Alert404/Alert404';
 import Blog from './Component/Blog/Blog';
 import Home from './Component/Home/Home';
 import ShowQuiz from './Component/ShowQuiz/ShowQuiz';
@@ -39,6 +40,10 @@ const App = () => {
           return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizID}`)
         },
         element: <ShowQuiz></ShowQuiz>
+      },
+      {
+        path:'*',
+        element: <Alert404></Alert404>
       }
 
    
